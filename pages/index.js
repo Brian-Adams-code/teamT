@@ -8,49 +8,49 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Card from "./card";
-
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const data = [
     {
       id: 1,
-      image: { image2 },
+      image:  image2 ,
       title: "Work Life",
       description: "Real-life advice, inspiration, and stories from the working world today.",
       links: "Read our blog",
     },
     {
       id: 2,
-      image: { image2 },
+      image: image2 ,
       title: "Atlassian Team Playbook",
       description: "Solve common team challenges with these group exercises.",
       links: "Check team health",
     },
     {
       id: 3,
-      image: { image3 },
+      image:image3,
       title: "The Agile Coach",
       description: "Atlassian's no-nonsense guide to agile development.",
       links: "Visit our resources",
     },
     {
       id: 4,
-      image: { image3 },
+      // image:  image3 ,
       title: "EVENTS",
       description: "Hear from today’s fearless builders and innovators",
       links: "Learn more",
     },
     {
       id: 5,
-      image: { image5 },
+      image: image5 ,
       title: "Title 1",
       description: "description 1",
       links: "/",
     },
     {
       id: 6,
-      image: { image6 },
+      image:  image6 ,
       title: "Title 1",
       description: "description 1",
       links: "/",
